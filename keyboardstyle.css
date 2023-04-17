@@ -1,0 +1,112 @@
+/* Set styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set styles for the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Set styles for the logo */
+.Main.Logo img {
+    height: 120px;
+}
+
+/* Set styles for the search input and button */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search button[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Set styles for the main content section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Set styles for the front-page-reviews section */
+.front-page-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Set styles for the front-page-review-1 section */
+.front-page-review-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.front-page-review-1 h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.front-page-review-1 p {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.front-page-review-1 img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.front-page-review-1 a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.front-page-review-1 a:hover {
+    color: #f44336;
+}
+
+/* Set styles for the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

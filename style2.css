@@ -1,0 +1,150 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+    
+    /* Footer styles */
+    footer {
+    background-color: #F5F5F5;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
+    /* Header styles */
+    header {
+    align-items: center;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    }
+    
+    /* Main styles */
+    .Main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    }
+    /*Logo Height*/
+    .Logo img {
+    height: 120px;
+    }
+    /*Sets initial size of contact-us box*/
+    .contact-us {
+    flex-basis: 30%;
+    }
+    
+    .contact-us > h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    /*Styles the input boxes for contacting*/
+    .contact-us input[type="text"],
+    .contact-us input[type="email"],
+    .contact-us textarea {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    }
+    
+    .contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    .contact-us p {
+    margin-bottom: 10px;
+    }
+    
+    .contact-us textarea {
+    height: 100px;
+    }
+    /*Styles the contact button of itself*/
+    .contact-us button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    }
+    /*Edits the Front Page Reviews*/
+    .front-page-review-1,
+    .front-page-review-2 {
+    align-items: center;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    }
+    
+    .front-page-review-1 a,
+    .front-page-review-2 a {
+    color: #4CAF50;
+    text-decoration: none;
+    }
+    
+    .front-page-review-1 img,
+    .front-page-review-2 img {
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    
+    .front-page-reviews {
+    align-items: flex-start;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    }
+    
+    .front-page-reviews > h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    /*Edits product reviews tab*/
+    .product-reviews {
+    flex-basis: 40%;
+    }
+    
+    .product-reviews a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .product-reviews li {
+    margin-bottom: 5px;
+    }
+    
+    .product-reviews ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    /*Search button CSS*/
+    .search {
+    align-items: center;
+    display: flex;
+    }
+    
+    .search button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    }
+    
+    .search input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 10px;
+    }
