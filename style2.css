@@ -148,3 +148,24 @@ body {
     margin-right: 10px;
     padding: 10px;
     }
+/* Style the navigation links */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
